@@ -1,3 +1,4 @@
+/*app.css Oluwapelumi Ajuwon-301254275, Feb 4th, 2023*/
 .imagesection{
   display:inline-flex;
   font-family: 'Times New Roman', Times, serif;
@@ -172,11 +173,48 @@ padding: 15px 25px;
 text-decoration: none;
 align-items: center;
 text-align: center;
-/*margin: auto;*/
-display: flex;
 justify-content: center;
+/*margin: auto;*/
+width: 200px;
+display: inline-flex;
+justify-items: center;
 }
 .btn-lg:hover{
   background-color: #64B5F6;
+}
+
+/* Add Style to the contact information section*/
+.contact{
+  display: flex;
+}
+.contactcard{
+  background-color: beige;
+  margin: 0 10px;
+  height: 100px;
+  width: 300px;
+  display: inline-flex;
+  justify-items: center;
+  /*flex-direction: row;*/
+  color: antiquewhite;
+  border-radius: 15px;
+}
+
+.contactcard i{
+  margin-top: 20px;
+  font-size: 30px;
+  background:rgb(245, 173, 79) ;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px !important;
+  border-radius: 40%;
+}
+
+.contactcard p{
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #00B7FF;
+  letter-spacing: 2.5px;
 }
 }
