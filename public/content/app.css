@@ -132,12 +132,14 @@ input[type=submit]:hover {
   bottom: 3rem;
   z-index: 10;
   color: azure;
-  text-align: justify;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
+  height: 45rem;
 }
 
 /* RESPONSIVE CSS
